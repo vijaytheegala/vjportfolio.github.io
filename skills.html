@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="iE=edge">
+  <title>VJ Portifolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="Javascript" href="circle-progress.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/logo.jpg"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME <i class="fas fa-home"></i></a></li>
+          <li><a href="CERTIFICATIONS.html">CERTIFICATIONS <i class="far fa-star"></i></a></li>
+          <li><a href="skills.html">SKILLS <i class="fas fa-cogs"></i></a></li>
+          <li><a href="PROJECTS.html">PROJECTS <i class="fas fa-tasks"></i></a></li>
+          <li><a href="CONTACT.html">CONTACT <i class="fas fa-address-book"></i></a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1></h1>
+      <h2><span class="auto-input"></span> <i class="fa fa-arrow-down" ></i> </h2>
+   
+    </div>
+  </section>
+<section class="skills">
+  <h1>SKILLS <i class="fas fa-cogs"></i></h1>
+  <p>I'm a Java Full Stack Developer, where i do both Front-end & Back-end work.<br>Also certified as AWS Developer &<br> UX Research - UI Designer </p>
+  <div class="wrapper">
+    <div class="icon facebook">
+       <div class="tooltip">
+          Java
+       </div>
+       <span><i class="fab fa-java"></i></span>
+    </div>
+    <div class="icon twitter">
+     <div class="tooltip">
+        Javascript
+     </div>
+     <span><i class="fab fa-js-square"></i></span>
+  </div>
+  <div class="icon instagram">
+    <div class="tooltip">
+       Html
+    </div>
+    <span><i class="fab fa-html5"></i></span>
+ </div>
+ <div class="icon github">
+    <div class="tooltip">
+       Css
+    </div>
+    <span><i class="fab fa-css3-alt"></i></span>
+ </div>
+ <div class="icon youtube">
+    <div class="tooltip">
+       React
+    </div>
+    <span><i class="fab fa-react"></i></span>
+</div>
+<div class="icon youtu">
+  <div class="tooltip">
+     Angular
+  </div>
+  <span><i class="fab fa-angular"></i></span>
+</div>
+  <div class="icon twitterr">
+   <div class="tooltip">
+      Node
+   </div>
+   <span><i class="fab fa-node"></i></span>
+</div>
+<div class="icon twitte">
+ <div class="tooltip">
+    AWS
+ </div>
+ <span><i class="fab fa-aws"></i></span>
+</div>
+   
+    
+    <div class="icon youtubee">
+       <div class="tooltip">
+          Github
+       </div>
+       <span><i class="fab fa-github"></i></span>
+    </div>
+
+  </section>
+
+
+
+
+<section class="footer">
+  <h4>Social Media <i class="fas fa-globe-asia"></i></h4>
+  <p> You can contact me also from </p>
+  <div class="icons">
+    <a href="https://www.linkedin.com/in/vijay-kumar-theegala-69b7bb190" target="_blank">
+    <i class="fa fa-linkedin"></i></a>
+    <a href="http://api.whatsapp.com/send?phone=+919398556393&text=Thankyou" target="_blank">
+    <i class="fa fa-whatsapp"></i></a>
+    <a href="https://www.instagram.com/mr.vijay_kumar__7" target="_blank">
+    <i class="fa fa-instagram"></i></a>
+    <a href="" target="_blank">
+    <i class="fa fa-twitter"></i></a>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"  aria-hidden="true"></i> by Vijay Kumar Theegala </p>
+</section>
+
+
+
+
+
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+  navLinks.style.right = "0";
+}
+function hideMenu(){
+  navLinks.style.right = "-200px";
+}
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed(".auto-input",{
+    strings:["SKILLS"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
+  })
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="circle-progress.js"></script>
+
+</body>
+</html>
